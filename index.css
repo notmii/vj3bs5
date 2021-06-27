@@ -1,0 +1,17 @@
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: all .3s linear;
+}
+
+.slide-fade-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+.slide-fade-enter-to {
+  transform: translateY(10px);
+  opacity: 1;
+} 
+
+.has-action, .page-item:not(.disabled) {
+  cursor: pointer;
+}
